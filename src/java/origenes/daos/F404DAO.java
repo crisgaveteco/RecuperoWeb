@@ -35,7 +35,7 @@ public class F404DAO {
             tx.commit(); 
         } catch (HibernateException he) 
         { 
-            manejaExcepcion(he); 
+            //manejaExcepcion(he); 
             throw he; 
         } finally 
         { 

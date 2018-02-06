@@ -34,7 +34,7 @@ public class EstcompDAO {
             tx.commit(); 
         } catch (HibernateException he) 
         { 
-            manejaExcepcion(he); 
+            //manejaExcepcion(he); 
             throw he; 
         } finally 
         { 

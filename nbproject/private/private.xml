@@ -18,5 +18,12 @@
             <file>file:/C:/CoderHouse/Nivel%202/Tps/Clase11/RecuperoWeb/src/java/origenes/daos/NewHibernateUtil.java</file>
             <file>file:/C:/CoderHouse/Nivel%202/Tps/Clase11/RecuperoWeb/src/java/origenes/objetos/ImportarEstComp.java</file>
         </group>
+        <group>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/RecuperoWeb/src/java/origenes/daos/CompDAO.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/RecuperoWeb/src/java/origenes/daos/EstcompDAO.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/RecuperoWeb/src/java/origenes/daos/F404DAO.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/RecuperoWeb/test/hibernateTest/ImportarF404.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/RecuperoWeb/src/java/hibernate.cfg.xml</file>
+        </group>
     </open-files>
 </project-private>

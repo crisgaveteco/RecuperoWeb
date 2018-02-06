@@ -37,15 +37,7 @@ public class ImportarTodo {
         ImportarEstComp.main(new String[]{"1712"});
         
           
-//          ImportarF404.main(new String[]{"201702"});
-//          ImportarF404.main(new String[]{"201703"});
-//          ImportarF404.main(new String[]{"201704"});
-//          ImportarF404.main(new String[]{"201705"});
-//          ImportarF404.main(new String[]{"201706"});
-//          ImportarF404.main(new String[]{"201707"});
-//          ImportarF404.main(new String[]{"201708"});
-//          ImportarF404.main(new String[]{"201709"});
-//          ImportarF404.main(new String[]{"201710"});
+
     }
     
 }

@@ -44,14 +44,15 @@ public class F404 implements Serializable {
     private String certExclusion;
     private String tipoCredFiscal;
     private String periodo;
+    private boolean sellado;
 
     public F404() {
     }
-    public F404(String campos[],String periodo) {
-        this(campos[0],campos[1],campos[2],campos[3],campos[4],campos[5],campos[7],campos[8],campos[9],campos[10],campos[11],campos[12],campos[13],campos[14],campos[15],campos[16],campos[17],campos[18],periodo);
+    public F404(String campos[],boolean sellado,String periodo) {
+        this(campos[0],campos[1],campos[2],campos[3],campos[4],campos[5],campos[7],campos[8],campos[9],campos[10],campos[11],campos[12],campos[13],campos[14],campos[15],campos[16],sellado,campos[17],campos[18],periodo);
     }
 
-    public F404(String nroInterno, String tipoComp, String fechaFac, String ptoVta, String nroFc, String cuit, String netog, String iva, String cero, String computable, String retencion,String fechaDePago, String fechaDDJJ, String descripcion, String codNoRet, String certExclusion, String tipoCredFiscal,String regimenRet, String periodo) {
+    public F404(String nroInterno, String tipoComp, String fechaFac, String ptoVta, String nroFc, String cuit, String netog, String iva, String cero, String computable, String retencion,String fechaDePago, String fechaDDJJ, String descripcion, String codNoRet, String certExclusion, boolean sellado, String tipoCredFiscal,String regimenRet, String periodo) {
         this.nroInterno = nroInterno;
         this.tipoComp = tipoComp;
         this.fechaFac = fechaFac;
@@ -70,6 +71,7 @@ public class F404 implements Serializable {
         this.certExclusion = certExclusion;
         this.tipoCredFiscal = tipoCredFiscal;
         this.periodo = periodo;
+        this.sellado = sellado;
     }
 
     

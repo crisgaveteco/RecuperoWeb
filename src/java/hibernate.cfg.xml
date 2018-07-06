@@ -47,7 +47,7 @@ Contributor(s):
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">mysql</property>
     <property name="connection.pool_size">1</property>
-    <property name="show_sql">true</property> 
+    <property name="show_sql">true</property>
     <property name="hbm2ddl.auto">update</property>
     <mapping class="origenes.objetos.Estcomp"/>
     <mapping class="origenes.objetos.Comp"/>

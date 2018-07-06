@@ -37,16 +37,23 @@ public class ImportarTodo {
 //        ImportarEstComp.main(new String[]{"1708"});
 //        ImportarEstComp.main(new String[]{"1709"});
 //        ImportarEstComp.main(new String[]{"1710"});
-          
-          ImportarF404.main(new String[]{"201702"});
-          ImportarF404.main(new String[]{"201703"});
-          ImportarF404.main(new String[]{"201704"});
-          ImportarF404.main(new String[]{"201705"});
-          ImportarF404.main(new String[]{"201706"});
-          ImportarF404.main(new String[]{"201707"});
-          ImportarF404.main(new String[]{"201708"});
-          ImportarF404.main(new String[]{"201709"});
-//          ImportarF404.main(new String[]{"201710"});
+//        ImportarEstComp.main(new String[]{"1710"});
+//        ImportarEstComp.main(new String[]{"1711"});
+//        ImportarEstComp.main(new String[]{"1803"});
+         
+         
+//          ImportarF404.main(new String[]{"201702"});
+//          ImportarF404.main(new String[]{"201703"});
+//          ImportarF404.main(new String[]{"201704"});
+//          ImportarF404.main(new String[]{"201705"});
+//          ImportarF404.main(new String[]{"201706"});
+//          ImportarF404.main(new String[]{"201707"});
+//          ImportarF404.main(new String[]{"201708"});
+//          ImportarF404.main(new String[]{"201709"});
+//          ImportarEstComp.main(new String[]{"1804"});
+//          ImportarF404.main(new String[]{"201802"});
+            ImportarEstComp.main(new String[]{"1805"});
+//            ImportarF404.main(new String[]{"201805"});
     }
     
 }

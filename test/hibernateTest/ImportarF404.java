@@ -38,7 +38,7 @@ public class ImportarF404 {
             BufferedReader br = new BufferedReader(fr);
             String linea;
             while ((linea = br.readLine()) != null && linea.length()>2) {
-                F404 f404 = new F404(linea.split(";"),F404File.getName().replaceFirst("F404", ""));
+                F404 f404 = new F404(linea.split(";"),false,F404File.getName().replaceFirst("F404", ""));
                 System.out.println(f404);
                 F404DAO f404Dao = new F404DAO();
                 f404Dao.guardaEstcomp(f404);
